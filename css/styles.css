@@ -19,11 +19,11 @@ html {
 }
 
 body {
-  color: #343434;
+  color: #050505;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
 }
 img {
@@ -53,6 +53,11 @@ h1, h2 {
   margin: 0 auto;
   padding: 60px 0;
 }
+.content-wrap p{
+  text-justify: inter-word;
+  font-size: 15px;
+  line-height: 1.8;
+}
 h3 {
   margin-bottom: 0;
 }
@@ -74,16 +79,18 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
+  background-image: url(../images/main.jpg);
   color: #F7FFF7;
   text-align: center;
 }
-
-
+.about-me
+{  text-align: center;
+  background-color: whitesmoke;
+}
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #F7FFF7;
+  background-image: url(../images/project.jpg);
 }
 .projects a {
   color: #2F3061;
@@ -114,9 +121,11 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background-image: url(../images/rr1.jpg);
+  background-repeat: no-repeat;
 }
 .job-item {
+  
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 20px;
@@ -126,20 +135,20 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-image: url(../images/2744013.jpg);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
 }
 .education p {
-  width: 60%;
+  width: 50%;
 }
 
 
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
+  background: #161616;
   color: #F7FFF7;
   text-align: center;
 }
@@ -157,6 +166,13 @@ footer {
 /* Volunteer Experience
 ------------------------------------*/
 .volunteer-experience {
-  background: #a9a1d7;
+  background-image: url(../images/volu.jpg);
 }
 
+.float-container {  padding: 20px;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 20px;}  
