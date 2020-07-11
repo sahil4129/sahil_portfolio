@@ -194,11 +194,20 @@ footer {
 {
   background-color: whitesmoke;
 }
-.course .float-child p 
-{
-  color:#2F3061;
+.course{
+  background-image: url(../images/rr1.jpg);
+
 }
-.cv .btn{
+
+.cv{
+  background-color: whitesmoke;
+
+}
+.course ul {
+  padding-left: 50px;
+  font-size: medium;
+}
+.course .btn{
     font-size: 30px;
   border: none;
   cursor: pointer;
@@ -207,7 +216,7 @@ footer {
   font-family: 'Caveat', cursive;
   background-color: transparent;
 }
-.cv .btn:hover
+.course .btn:hover
 {
   color: rgb(55, 26, 221);
   border:20px;
