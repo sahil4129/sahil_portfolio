@@ -84,7 +84,8 @@ header {
   text-align: center;
 }
 .about-me
-{  text-align: center;
+{  
+
   background-color: whitesmoke;
 }
 /* Projects
@@ -169,10 +170,16 @@ footer {
   background-image: url(../images/volu.jpg);
 }
 
-.float-container {  padding: 20px;
+.float-container { 
+   padding: 20px;
 }
 
 .float-child {
   width: 50%;
   float: left;
   padding: 20px;}  
+
+.skills
+{
+  background-color: whitesmoke;
+}
