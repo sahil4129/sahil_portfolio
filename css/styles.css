@@ -183,7 +183,7 @@ footer {
 {
   background-color: whitesmoke;
 }
-.skills .btn{
+.cv .btn{
   font-size: 30px;
   border: none;
   cursor: pointer;
@@ -192,7 +192,7 @@ footer {
   font-family: 'Caveat', cursive;
   background-color: transparent;
 }
-.skills .btn:hover
+.cv .btn:hover
 {
   color: rgb(55, 26, 221);
   border:20px;
