@@ -126,10 +126,17 @@ header {
   background-repeat: no-repeat;
 }
 .job-item {
-  
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 20px;
+}
+.job-summary p
+{
+  font-size: 15px;
+}
+.job-summary
+{
+  font-size: 15px;
 }
 
 
