@@ -194,6 +194,10 @@ footer {
 {
   background-color: whitesmoke;
 }
+.course .float-child p 
+{
+  color:#2F3061;
+}
 .cv .btn{
     font-size: 30px;
   border: none;
