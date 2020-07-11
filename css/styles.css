@@ -30,7 +30,7 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+  color: #a82597;
 }
 a:hover {
   text-decoration: none;
@@ -160,7 +160,7 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #161616;
+  background: #292929;
   color: #F7FFF7;
   text-align: center;
 }
